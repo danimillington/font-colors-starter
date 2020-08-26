@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+/*---------- TABLET ----------*/
+/* Change the background colors below */
+
+@media (min-width: 768px) {
+
+h1 {
+  font-size: 2em;
+  color: #f94c0c;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #32d4ff;
+}
+
+p {
+  font-size: 1.5em;
+  color: #30ff00;
+  }
+}
+
+/*---------- DESKTOP ----------*/
+/* Change the background colors below */
+
+@media (min-width: 1200px) {
+
+h1 {
+  font-size: 2em;
+  color: #a26add;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #dd2f2b;
+}
+
+p {
+  font-size: 1.5em;
+  color: #fda818;
+  }
+}
